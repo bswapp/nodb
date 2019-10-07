@@ -1,0 +1,85 @@
+.header {
+  height: 60px;
+  width: 100vw;
+  background-color: #ebeced;
+  justify-content: center;
+  text-align: center;
+  font-family: "Mansalva", cursive;
+  font-size: 33px;
+  display: flex;
+  flex-direction: column;
+}
+
+.slogan {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #c3d6de;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 23px;
+  overflow: hidden;
+  white-space: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainImage {
+  background-image: url("https://images.pexels.com/photos/1636298/pexels-photo-1636298.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  height: 40vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+}
+
+.addCat {
+  height: 60px;
+  width: 100wv;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.buttons {
+  height: 30px;
+  width: 80px;
+  background-color: white;
+  border-radius: 2px;
+  text-align: center;
+  display: inline-block;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 15px;
+}
+
+.body {
+  margin-top: 235px;
+  height: 85vh;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  padding-top: 150px;
+}
+
+.footer {
+  height: 50px;
+  width: 100%;
+  background-color: #ebeced;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: space-around;
+}
+
+.footerText {
+  display: flex;
+  padding-right: 10px;
+  font-family: "PT Sans Narrow", sans-serif;
+}

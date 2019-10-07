@@ -1,0 +1,53 @@
+.catHolder {
+  border: 1px solid black;
+  margin-bottom: 13px;
+  width: 42vw;
+  height: 450px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.catImage {
+  max-width: 300px;
+  max-height: 250px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 175px;
+  margin-bottom: 7px;
+}
+
+.catName {
+  height: 15px;
+  width: fit-content;
+  font-family: "PT Sans Narrow", sans-serif;
+  margin-left: 250px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 7px;
+}
+
+.catAge {
+  height: 15px;
+  width: fit-content;
+  margin-left: 270px;
+  font-family: "PT Sans Narrow", sans-serif;
+  margin-top: 9px;
+}
+
+.catDescription {
+  height: 20px;
+  width: fit-content;
+  font-family: "PT Sans Narrow", sans-serif;
+  margin-top: 7px;
+  font-size: 20px;
+  margin-bottom: 35px;
+  margin-left: 110px;
+}
+
+.editButtons {
+  width: fit-content;
+  height: 20px;
+  padding-right: 7px;
+}
